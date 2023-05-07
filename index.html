@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Math</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header-menu">
+                    <a href="#math" class="math"> Математика</a>
+                </div>
+                
+            </div>
+        </header>
+                <main class="main">
+                    <div class="main__container">
+                    <div id="math">
+                    <div class="equation">
+                        <div class="equation__container">
+                            <div class="equation_calcult">
+                                <p class="title">Квадратне рівняння</p>
+                                <form action="javascript:square_equation()" name="square" class="form">
+                                    <div class="numbers">
+                                        
+                                        <p> a <input type="text" class="sqr" name="a" value=" " size="4"></p>
+                                        <p> b <input type="text" class="sqr" name="b" value=" " size="4"></p>
+                                        <p> c <input type="text" class="sqr" name="c" value=" " size="4"></p>
+                                    </div>
+                                    <div class="result">
+                                        <input type="submit" class="button" value="Розрахувати">
+                                        <input type="reset" class="button" name="reset" value="Отмена">
+                                    </div>
+                                </form>
+                                <div class="square">
+                                    <span id="square_sol" class="sol"></span>
+                                    <span id="d_sol" class="sol"></span>
+                                    <span id="formula_sol" class="sol"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="equation__container1">
+                            <div class="equation_calcult1">
+                                <p class="title">Факторіал</p>
+                        <form action="javascript:factorial()" name="factorial">
+                            Введіть число для факторіала: <input type="text" class="num" name="numberForFactorial">
+                            <div class="button-fuc">
+                            <input type="submit" class="button" value="Розрахувати">
+                            <input type="reset" class="button" name="reset" value="reset">
+                            </div>
+                        </form>
+                        Факторіал число: <span id="factorial_sol">Введіть коефіціенти та натисніть "Розрахувати"</span>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+<!-- ---------------------------------------------------------------------------------------------------------  -->
+                
+
+
+
+                    </div>
+
+
+                    </div>
+                   
+
+
+
+
+
+
+                        <div class="wrapper-for-calc">
+                        <section class="screen">
+                            0
+                        </section>
+                    
+                        <section class="calc-buttons">
+                            <div class="calc-button-row">
+                                <button class="calc-button double">C</button>
+                                <button class="calc-button">&larr;</button>
+                                <button class="calc-button">&divide;</button>
+                            
+                            </div>
+                            <div class="calc-button-row">
+                                <button class="calc-button">7</button>
+                                <button class="calc-button">8</button>
+                                <button class="calc-button">9</button>
+                                <button class="calc-button">&times;</button>
+                            </div>
+                            <div class="calc-button-row">
+                                <button class="calc-button">4</button>
+                                <button class="calc-button">5</button>
+                                <button class="calc-button">6</button>
+                                <button class="calc-button">&minus;</button>
+                            </div>
+                            <div class="calc-button-row">
+                                <button class="calc-button">1</button>
+                                <button class="calc-button">2</button>
+                                <button class="calc-button">3</button>
+                                <button class="calc-button">&plus;</button>
+                            </div>
+                            <div class="calc-button-row">
+                                <button class="calc-button triple">0</button>
+                                <button class="calc-button">&equals;</button>
+                            </div>
+                        </section>
+           </div>
+         </div>
+       </main>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
